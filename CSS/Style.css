@@ -1,0 +1,136 @@
+@import url(@media.css); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    /*border: 2px solid red;*/
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    .mt-3 {
+        margin-top: 1rem;
+    }
+    
+    .shadow {
+        box-shadow: 2px 2px 4px #f111c1;
+            }
+    .border-radius {
+        border-radius: 1rem;
+    }
+    /* === estilos del header === */
+    
+    header {
+    
+        background: #000;
+        display: flex;
+        justify-content: space-evenly;
+        /*mueve elementos en el main o sea eje X */
+        align-items: center;
+         /*mueve elementos en el cross acsis o sea eje Y */
+        gap: 3rem;
+    }
+    img {
+        width: 220px;
+        border-radius: 2rem;
+    }   
+    h1 {
+        color: rgba(238, 12, 238, 0.925);
+    }
+     h3 {
+        color: #da1ac0;
+     }
+    /* === estilos del header === */
+    
+    
+    /* === estilos del nav === */
+    
+    nav {
+        background: #c5f5f3;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    ul {
+    display: solido;
+    gap: 1rem;
+    }
+    
+    li {
+        list-style: flex;
+    }
+    a {
+        color: rgb(4, 14, 24);
+        text-decoration: none;
+    }
+    
+    /* === estilos del nav === */
+    
+    /* === estilos del main === */
+    
+    /* === estilos de las cajas === */
+    
+    .Cajas {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .caja {
+    width: 100px;
+    height: 100px;
+    background: #e9f541c4;
+    }
+
+    .caja: :hover {
+    transform: scale(1.2);
+    background: #fa20fa;
+    box-shadow: 0 0 4px #f848f8;
+    transition: all 300ms;
+}
+
+    /* === estilos de las cajas === */
+    
+    /* === estilos de los textos === */
+    
+    .Container p {
+        background: #f1bee6;
+        padding: 1rem;
+    }
+    
+    /* === estilos de los textos === */
+    /* === estilos del main === */
+
+    button {
+    margin: 6rem;
+    padding: 0,5rem;
+    background: radial-gradient(circle at 33% 100%, #fed373 4% #f15245 30% #d92e7f 62%, #9b36b7 85%, #515ecf);
+    border: none;
+    box-shadow: 2px 2px 4px #000;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+    
+    i {
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    button: :hover {
+        transform: rotate(360deg)
+        transition: all 300ms;
+    }
+
+    footer {
+    background: #1adad4;
+    height: 3rem;
+    margin-top: auto;
+    }
+    
